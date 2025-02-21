@@ -1,0 +1,7 @@
+NAVBARS
+    navbackground - background color
+    navbar class in bootstrap
+    navbar-expand-lg - navbar expand large
+    navbar-dark and bg-dark - color scheme classes
+    container-fluid, which is width: 100% at all breakpoints
+    

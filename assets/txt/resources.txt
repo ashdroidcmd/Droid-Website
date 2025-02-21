@@ -1,0 +1,55 @@
+Arduino Resources
+
+Welcome to the Resources page! Here, you'll find a collection of useful links, tutorials, and tools to help you get started with Arduino development.
+
+Getting Started
+
+Official Arduino Website – Official documentation, downloads, and tutorials.
+
+Arduino Getting Started Guide – Step-by-step guide for beginners.
+
+Arduino Forum – Community discussions and troubleshooting help.
+
+Learning Arduino
+
+Arduino YouTube Channel – Video tutorials and project showcases.
+
+Adafruit Learning System – Guides for using Arduino with sensors and accessories.
+
+SparkFun Tutorials – Hands-on Arduino projects and lessons.
+
+Libraries and Tools
+
+Arduino Library Manager – Official libraries for Arduino.
+
+PlatformIO – Alternative development environment for Arduino programming.
+
+Fritzing – Tool for designing Arduino circuits.
+
+Project Ideas & Inspiration
+
+Hackster.io Arduino Projects – Community-contributed Arduino projects.
+
+Instructables Arduino Section – Step-by-step Arduino project tutorials.
+
+Github Arduino Projects – Open-source Arduino project repositories.
+
+Buying Arduino & Components
+
+Arduino Store – Official Arduino boards and accessories.
+
+Adafruit – Electronics kits and sensors.
+
+SparkFun – Development boards and hardware for Arduino.
+
+Amazon Arduino Section – Popular Arduino kits and components.
+
+Advanced Topics
+
+ESP8266 & ESP32 Guide – Wi-Fi and IoT projects with Arduino.
+
+Arduino Low Power – Power-saving techniques for battery-operated projects.
+
+Arduino and Machine Learning – Implementing AI on Arduino.
+
+We continuously update this list with the latest and best Arduino resources. If you have a recommendation, feel free to contact us!

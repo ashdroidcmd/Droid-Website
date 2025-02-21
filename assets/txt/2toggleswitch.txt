@@ -1,0 +1,58 @@
+Button Toggle LED (Press to Turn ON/OFF)
+Instead of keeping the LED on only while pressing the button, this version toggles the LED state each time the button is pressed.
+
+🛠 Components Needed:
+Arduino Board (Uno, Mega, etc.)
+LED
+Resistor (220Ω) (For LED)
+Push Button
+Resistor (10kΩ) (For button pull-down)
+Jumper Wires
+Breadboard (Optional)
+
+🔌 Circuit Connections:
+LED:
+
+Anode (Long leg) → Arduino Pin 9
+Cathode (Short leg) → GND through 220Ω resistor
+
+Button:
+
+One leg → Arduino Pin 2
+Other leg → GND (through a 10kΩ resistor)
+Also connect one side of the button to 5V
+
+💻 Arduino Code (Toggle LED)
+const int buttonPin = 2;  // Button connected to pin 2
+const int ledPin = 9;     // LED connected to pin 9
+
+bool ledState = false;    // LED state (ON/OFF)
+bool lastButtonState = HIGH;
+bool currentButtonState;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP); // Internal pull-up resistor
+}
+
+void loop() {
+  currentButtonState = digitalRead(buttonPin);
+
+  // Check if button was pressed (change from HIGH to LOW)
+  if (currentButtonState == LOW && lastButtonState == HIGH) {
+    ledState = !ledState;  // Toggle LED state
+    digitalWrite(ledPin, ledState ? HIGH : LOW);
+    delay(200);  // Debounce delay to avoid multiple triggers
+  }
+
+  lastButtonState = currentButtonState;
+}
+🚀 Explanation:
+Uses a boolean variable (ledState) to track LED status.
+Detects button press transition (HIGH to LOW) to toggle the LED.
+Debounce delay (200ms) prevents unwanted multiple toggles due to bouncing.
+✅ Enhancements:
+
+Add multiple buttons to toggle different LEDs.
+Use an OLED screen or LCD to display the LED state.
+Implement long-press functionality for dimming or brightness control.

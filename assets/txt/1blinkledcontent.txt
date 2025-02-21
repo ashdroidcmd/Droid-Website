@@ -1,0 +1,37 @@
+Turning on an LED with an Arduino is one of the simplest beginner projects. 
+
+Here’s how you can do it:
+
+Components Needed:
+Arduino board (Uno, Mega, etc.)
+LED
+Resistor (220Ω or 330Ω)
+Jumper wires
+Breadboard (optional)
+
+
+Wiring Diagram:
+Long leg (anode, +) → Connect to Arduino digital pin 13 (or any other digital pin) through a 220Ω or 330Ω resistor
+Short leg (cathode, -) → Connect to GND.
+
+
+Arduino Code:
+void setup() {
+  pinMode(13, OUTPUT);  // Set pin 13 as an output
+}
+
+void loop() {
+  digitalWrite(13, HIGH);  // Turn LED on
+  delay(1000);             // Wait for 1 second
+  digitalWrite(13, LOW);   // Turn LED off
+  delay(1000);             // Wait for 1 second
+}
+
+
+Explanation:
+pinMode(13, OUTPUT); → Sets pin 13 as an output.
+digitalWrite(13, HIGH); → Turns the LED ON.
+delay(1000); → Waits for 1 second.
+digitalWrite(13, LOW); → Turns the LED OFF.
+The loop repeats indefinitely, making the LED blink every second.
+Would you like help modifying the code, such as making the LED fade or respond to a button press? 🚀

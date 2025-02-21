@@ -1,0 +1,41 @@
+4️⃣ Traffic Light System
+What You'll Learn: Controlling multiple LEDs with timed delays.
+
+🔹 Components:
+
+1 x Red LED
+1 x Yellow LED
+1 x Green LED
+3 x 220Ω Resistors
+🔹 Circuit:
+
+Red LED → Pin 8
+Yellow LED → Pin 9
+Green LED → Pin 10
+🔹 Code:
+
+cpp
+Copy
+Edit
+int red = 8, yellow = 9, green = 10;
+
+void setup() {
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(green, HIGH);
+  delay(5000);
+  digitalWrite(green, LOW);
+  
+  digitalWrite(yellow, HIGH);
+  delay(2000);
+  digitalWrite(yellow, LOW);
+  
+  digitalWrite(red, HIGH);
+  delay(5000);
+  digitalWrite(red, LOW);
+}
+✅ Enhance: Add a button for a pedestrian crossing mode.
