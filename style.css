@@ -1,0 +1,34 @@
+/* Can be used at Blog Posts*/
+
+/* Nav Section */
+.nav-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-padding-right{
+    padding-right: 50px;
+}
+
+.nav-item:hover {
+    box-shadow: 0 0 5px rgb(255, 255, 255); /* Adds a glow effect without shifting */
+  }
+.nav-item > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 3px;
+}
+
+.linkhover:hover{
+    box-shadow: 0 0 5px rgb(0, 0, 0); /* Adds a glow effect without shifting */
+}
+/* Content Section */
+
+.bgimage{
+    background-image: url("/assets/img/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ptopbtm{
+    padding-top: 200px;
+    padding-bottom: 240px;
+}
+/* Footer Section */
