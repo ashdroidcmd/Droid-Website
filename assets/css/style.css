@@ -23,9 +23,12 @@
 /* Content Section */
 
 .bgimage{
-    background-image: url("/assets/img/emo.jpeg");
+    background-image: url("/assets/img/Binary-Code-HQ-Desktop-Wallpaper-23019.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1080px;
+}
+.ptopbtm{
+    padding-top: 200px;
+    padding-bottom: 240px;
 }
 /* Footer Section */
